@@ -1,3 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+    text-align: center;
+    border-top: solid rgb(0, 4, 255) 2em;
+    border-left: solid rgb(255, 208, 0) 2em;
+    border-right: solid rgb(0, 255, 42) 2em;
+    
+}
+
 body {
-    background-color: skyblue;
+    background-color: rgb(255, 255, 255);
+    color: rgb(25,25,25);
 }
